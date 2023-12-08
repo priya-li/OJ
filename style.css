@@ -1,0 +1,33 @@
+nav{
+    padding: 0rem 4rem ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.title img{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin: 4rem 0rem;
+}
+.title h5{
+    color: #366700;
+    font-family: "Chewy";
+    font-size: 24px;
+}
+.Navbar-menu{
+    display: flex;
+    align-items: center;
+    gap: 5rem;   
+}
+.Navbar-menu a{
+    text-decoration: none;
+    color: #366700;
+    font-family: "Chewy";
+    font-size: 24px;
+}
