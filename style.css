@@ -45,16 +45,22 @@ nav{
     padding: 4rem 4rem 0rem 4rem;
     justify-content: space-between;
     position: relative;
+    /* z-index: 2; */
 }
 .homepage-text h1{
     font-family: 'Emilys candy';
     font-weight: 300;
     font-size: 5rem;
     color: #337600;
+    position: relative;
+    z-index: 2;
+
 }
-/* .jar img{ */
+.jar img{ 
     /* margin: 5rem 5rem; */
-/* } */
+    position: relative;
+    z-index: 1;
+}
 
 /* leaves */
 .box#four {
@@ -63,7 +69,7 @@ nav{
     width: 90rem;
     height: 49.75rem;
     flex-shrink: 0;
-    top: 7.6rem;
+    top: 5rem;
     left: 4.3rem;
 }
 
