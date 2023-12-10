@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#Home{
+    background-color: #CCE0C5;
+}
 nav{
     padding: 0rem 4rem ;
     display: flex;
@@ -18,7 +25,9 @@ nav{
 .title h5{
     color: #366700;
     font-family: "Chewy";
-    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* letter-spacing: 1px; */
 }
 .Navbar-menu{
     display: flex;
@@ -35,28 +44,40 @@ nav{
     display: flex;
     padding: 4rem 4rem 0rem 4rem;
     justify-content: space-between;
+    position: relative;
 }
 .homepage-text h1{
-    /* font-family: 'Emilys candy'; */
-    font-family: 'Emilyscandy';
+    font-family: 'Emilys candy';
+    font-weight: 300;
     font-size: 5rem;
-    color: #366700;
+    color: #337600;
 }
 /* .jar img{ */
     /* margin: 5rem 5rem; */
 /* } */
 
 /* leaves */
+.box#four {
+    position: absolute;
+    z-index: 1;
+    width: 90rem;
+    height: 49.75rem;
+    flex-shrink: 0;
+    top: 7.6rem;
+    left: 4.3rem;
+}
+
 
 /* Horizontal Scroll Animation */
 @keyframes infiniteScroll {
     from {transform: translateX(0)}
     to {transform: translateX(-50%)}
 }
-.container {
+.scroll-container {
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
+    z-index: 0;
 }
 .horizontal-scrolling-items {
     display: flex;
@@ -65,6 +86,8 @@ nav{
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+    position: relative;
+    z-index: 1;
 }
 .scroll-text {
     white-space: nowrap;
