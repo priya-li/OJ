@@ -46,12 +46,36 @@ nav{
     /* margin: 5rem 5rem; */
 }
 /* leaves */
-.scroll-bar{
-    /* 1F3B2C */
+/* .scroll-bar{
+    1F3B2C
     height: 6rem;
     font-family: 'Bebas Neue';
     font-size: 5rem;
     color: #CFE3BE;
     background-color: #1F3B2C;    
     
+} */
+@keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-50%)}
+}
+.container {
+    width: 100%;
+    overflow-x: hidden;
+}
+.horizontal-scrolling-items {
+    display: flex;
+    width: max-content;
+    animation-name: infiniteScroll;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.scroll-text {
+    white-space: nowrap;
+    height: 6rem;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    color: #CFE3BE;
+    background-color: #1F3B2C;
 }
