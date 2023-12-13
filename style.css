@@ -110,3 +110,49 @@ nav{
     color: #CFE3BE;
     background-color: #1F3B2C;
 }
+
+
+/* Our Story */
+#About{
+    background-color: #CCE0C5;
+    padding: 3rem;
+}
+.Story{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.our-story{
+    width: 30%;
+}
+.our-story h2{
+    color: #003221;
+    font-family: 'Chewy';
+    font-size: 4.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 1rem;
+}
+.our-story p{
+    color: #337600;
+    font-family: 'Chewy';
+    font-weight: 400;
+    font-size: x-large;
+}
+.story-palette{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.collage-img3{
+    position: relative;
+    z-index: 1;
+}
+.collage-creaaper-img{
+    position: absolute;
+    left: 66.5%;
+    top: 68rem;
+}
