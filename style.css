@@ -4,6 +4,7 @@
 }
 #Home{
     background-color: #CCE0C5;
+    height: auto;
 }
 nav{
     padding: 0rem 4rem ;
@@ -41,25 +42,30 @@ nav{
     font-size: 1.5rem;
 }
 .homepage{
-    display: flex;
-    padding: 4rem 4rem 0rem 4rem;
+    /* display: flex; */
+    padding: 4rem 4rem 0rem 8rem;
     justify-content: space-between;
     position: relative;
-    /* z-index: 2; */
 }
 .homepage-text h1{
+    float: left;
+    margin-top: 3rem;
     font-family: 'Emilys candy';
     font-weight: 300;
     font-size: 5rem;
     color: #337600;
+    width: fit-content;
     position: relative;
     z-index: 2;
 
 }
-.jar img{ 
-    /* margin: 5rem 5rem; */
+.jar img{
+    float: right;
     position: relative;
-    z-index: 1;
+    z-index: 2;
+    right: 15rem;
+    top: 5rem;
+    bottom: -1rem;
 }
 
 /* leaves */
@@ -69,8 +75,9 @@ nav{
     width: 90rem;
     height: 49.75rem;
     flex-shrink: 0;
-    top: 5rem;
+    top: 6rem;
     left: 4.3rem;
+    mix-blend-mode: multiply;
 }
 
 
@@ -93,7 +100,7 @@ nav{
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 .scroll-text {
     white-space: nowrap;
