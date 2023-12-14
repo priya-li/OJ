@@ -1,3 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+#Home{
+    background-color: #CCE0C5;
+    height: auto;
+}
 nav{
     padding: 0rem 4rem ;
     display: flex;
@@ -18,7 +27,9 @@ nav{
 .title h5{
     color: #366700;
     font-family: "Chewy";
-    font-size: 24px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* letter-spacing: 1px; */
 }
 .Navbar-menu{
     display: flex;
@@ -29,5 +40,270 @@ nav{
     text-decoration: none;
     color: #366700;
     font-family: "Chewy";
-    font-size: 24px;
+    font-size: 1.5rem;
+}
+.homepage{
+    /* display: flex; */
+    padding: 4rem 4rem 0rem 8rem;
+    justify-content: space-between;
+    position: relative;
+}
+.homepage-text h1{
+    float: left;
+    margin-top: 3rem;
+    font-family: 'Emilys candy';
+    font-weight: 300;
+    font-size: 5rem;
+    color: #337600;
+    width: fit-content;
+    position: relative;
+    z-index: 2;
+
+}
+.jar img{
+    float: right;
+    position: relative;
+    z-index: 2;
+    right: 15rem;
+    top: 5rem;
+    bottom: -1rem;
+}
+
+/* leaves */
+.box#four {
+    position: absolute;
+    z-index: 1;
+    width: 90rem;
+    height: 49.75rem;
+    flex-shrink: 0;
+    top: 6rem;
+    left: 4.3rem;
+    mix-blend-mode: multiply;
+}
+
+
+/* Horizontal Scroll Animation */
+@keyframes infiniteScroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-50%)}
+}
+.scroll-container {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 0;
+}
+.horizontal-scrolling-items {
+    display: flex;
+    width: max-content;
+    animation-name: infiniteScroll;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    z-index: 2;
+}
+.scroll-text {
+    white-space: nowrap;
+    height: 6rem;
+    font-family: 'Bebas Neue';
+    font-size: 5rem;
+    color: #CFE3BE;
+    background-color: #1F3B2C;
+}
+
+
+/* Our Story */
+#About{
+    background-color: #CCE0C5;
+    padding: 2rem;
+}
+.Story{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.our-story{
+    width: 30%;
+}
+.our-story h2{
+    color: #073A29;
+    font-size: xxx-large;
+    font-family: 'Chewy';
+    letter-spacing: 2px;
+    margin: 1rem 0;
+}
+.our-story p{
+    color: #337600;
+    font-family: 'Chewy';
+    font-weight: 400;
+    font-size: x-large;
+}
+.story-palette{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.collage-img3{
+    position: relative;
+    z-index: 1;
+}
+.collage-creaaper-img{
+    position: absolute;
+    left: 66.5%;
+    top: 68rem;
+    /* mix-blend-mode: multiply; */
+}
+
+/* Menu */
+#Menu{
+    padding: 2rem;
+}
+.juice-oasis h2{
+    color: #073A29;
+    font-size: xxx-large;
+    font-family: 'Chewy';
+    letter-spacing: 2px;
+    margin: 1rem 0 0 5rem;
+}
+.Item-set{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: space-around;
+}
+.Item-set h3{
+    color: #337600;
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+}
+.Item-set p{
+    color: #366700;
+    font-family: 'Chewy';
+    font-size: x-large;
+    font-weight: 400;
+    text-align: center;
+    padding: 0rem 3rem;
+}
+.item{
+    width: 30%;
+    margin: 1rem;
+}
+.item-img{
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+}
+.item-img img{
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+}
+.item-img img:hover{
+    transform: scale(1.1);
+}
+
+/* What we hear all the time */
+#Testimonial{
+    background-color: #B5DBC6
+}
+.test-heading h2{
+    color: #073A29;
+    font-size: xxx-large;
+    font-family: 'Chewy';
+    letter-spacing: 2px;
+    margin: 1rem 0 0 5rem;
+}
+.carousel{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background: #DBFFEB;
+    height: 24rem;
+}
+
+
+/* FAQ's */
+#FAQ{
+    background-color: #83C998;
+    padding: 2rem;
+}
+
+.faq { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.faq-heading h2 {
+    color: #073A29;
+    font-size: xxx-large;
+    font-family: 'Chewy';
+    letter-spacing: 2px;
+    margin: 1rem 0 0 5rem;
+}
+.faq-item {
+    width: 78rem;
+    margin-top: 1rem;
+}
+.item-question {
+    background: #BEE7B0B2;
+    color: #006048;
+    font-family: 'Chewy';
+    font-size: x-large;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+}
+.question-text {
+    display: inline-block;
+}
+.arrows-container {
+    width: 3rem;
+    height: fit-content;
+    margin: 0.4rem;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid #377E56; */
+    border-radius: 100%;
+    background-color: #83C998;
+    
+}
+.item-answer {
+    display: none;
+    color: #377E56;
+    padding: 1rem 3rem;
+}
+.close {
+    display: none;
+}
+
+.show-answer .item-answer {
+    display: block;
+    background-color: #8CD7A2;
+    color: #377E56;
+    font-family: 'Chewy';
+    font-size: x-large;
+    border-radius: 2rem;
+}
+.show-answer .close {
+    display: inline;
+}
+.show-answer .expand {
+    display: none;
+}
+
+
+/* Footer */
+footer{
+    background-color: #003221;
 }
