@@ -156,3 +156,48 @@ nav{
     left: 66.5%;
     top: 68rem;
 }
+
+/* Menu */
+.juice-oasis{
+    color: #073A29;
+    font-size: xx-large;
+    font-family: 'Chewy';
+    font-weight: 400;
+    margin: 1rem 0 0 5rem;
+}
+.Item-set{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.Item-set h3{
+    color: #337600;
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+    font-weight: 400;
+    text-align: center;
+}
+.Item-set p{
+    color: #366700;
+    font-family: 'Chewy';
+    font-size: x-large;
+    font-weight: 400;
+    text-align: center;
+    padding: 0rem 3rem;
+}
+.item-img{
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+}
+.item-img img{
+    object-fit: cover;
+    transition: 0.5s all ease-in-out;
+}
+.item-img img:hover{
+    transform: scale(1.1);
+}
+.item{
+    width: 30%;
+    margin: 1rem;
+}
