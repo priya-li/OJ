@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 #Home{
     background-color: #CCE0C5;
@@ -129,9 +130,6 @@ nav{
     color: #003221;
     font-family: 'Chewy';
     font-size: 4.6875rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
     margin-bottom: 1rem;
 }
 .our-story p{
@@ -160,9 +158,8 @@ nav{
 /* Menu */
 .juice-oasis{
     color: #073A29;
-    font-size: xx-large;
+    font-size: xxx-large;
     font-family: 'Chewy';
-    font-weight: 400;
     margin: 1rem 0 0 5rem;
 }
 .Item-set{
@@ -221,6 +218,72 @@ nav{
 .card{
     background: #DBFFEB;
     height: 24rem;
+}
+
+
+/* FAQ's */
+#FAQ{
+    background-color: #83C998;
+    padding: 2rem;
+}
+
+.faq { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.faq-heading h2 {
+    color: #073A29;
+    font-size: xxx-large;
+    font-family: 'Chewy';
+    margin: 1rem 0 0 5rem;
+
+}
+.faq-item {
+    width: 78rem;
+    margin-top: 1rem;
+}
+.item-question {
+    background: #BEE7B0B2;
+    color: #006048;
+    font-family: 'Chewy';
+    font-size: x-large;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2rem;
+}
+.question-text {
+    display: inline-block;
+}
+.arrows-container {
+    margin: 0.4rem;
+}
+.item-answer {
+    display: none;
+    color: #377E56;
+    padding: 1rem 3rem;
+}
+.close {
+    display: none;
+}
+
+.show-answer .item-answer {
+    display: block;
+    background-color: #8CD7A2;
+    color: #377E56;
+    font-family: 'Chewy';
+    font-size: x-large;
+    border-radius: 2rem;
+}
+.show-answer .close {
+    display: inline;
+}
+.show-answer .expand {
+    display: none;
 }
 
 
