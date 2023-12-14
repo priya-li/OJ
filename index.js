@@ -32,8 +32,8 @@ faqData.map((item) => {
             <div class="item-question">
                 <span class="question-text">${item.question}</span>
                 <span class="arrows-container">
-                    <span class="expand">▼</span>
-                    <span class="close">▲</span>
+                    <span class="expand">+</span>
+                    <span class="close">-</span>
                 </span>
             </div>
             <div class="item-answer">
@@ -45,7 +45,7 @@ faqData.map((item) => {
     faqsContainer.append(faqItem);
 });
 
-const toggleButtons = document.querySelectorAll('.question-text');
+const toggleButtons = document.querySelectorAll('.arrows-container');
     
 toggleButtons.forEach(button => {
     button.addEventListener('click', function(e) {

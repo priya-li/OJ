@@ -154,6 +154,7 @@ nav{
     position: absolute;
     left: 66.5%;
     top: 68rem;
+    /* mix-blend-mode: multiply; */
 }
 
 /* Menu */
@@ -265,7 +266,17 @@ nav{
     display: inline-block;
 }
 .arrows-container {
+    width: 3rem;
+    height: fit-content;
     margin: 0.4rem;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    /* border: 2px solid #377E56; */
+    border-radius: 100%;
+    background-color: #83C998;
+    
 }
 .item-answer {
     display: none;
