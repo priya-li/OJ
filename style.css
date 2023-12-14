@@ -307,5 +307,18 @@ nav{
 footer{
     background-color: #003221;
     text-align: center;
+    padding: 3rem;
+}
+.logo{
+    margin: 1rem;
+}
+.logo img{
+    width: 3.5rem;
+    height: 3.5rem;
     
+}
+.logo h3{
+    font-family: 'chewy';
+    font-size: medium;
+    color: #83C998;
 }
