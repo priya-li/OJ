@@ -306,18 +306,53 @@ nav{
 /* Footer */
 footer{
     background-color: #003221;
-    padding: 3rem;
+    padding: 2rem;
 }
 .logo{
-    margin: 1rem;
+    text-align: center;
 }
 .logo img{
     width: 3.5rem;
-    height: 3.5rem;
-    
+    height: 3.5rem; 
 }
 .logo h3{
     font-family: 'chewy';
     font-size: medium;
     color: #83C998;
+}
+.contact-us{
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+}
+.contact{
+    margin-left: 30rem;
+    margin-bottom: 1rem;
+}
+.follow{
+    margin-right: 30rem;
+    align-items: center;
+}
+.contact-us h5{
+    color: #83C998;
+    font-family: 'Chewy';
+    font-size: medium;
+    text-align: center;
+    padding: 10px;
+}
+.contact-us p{
+    color: #2DB753;
+    font-family: 'Chewy';
+    font-size: medium;
+    text-align: center;
+    padding: 2px;
+}
+.follow img{
+    padding: 1px;
+}
+.copyrights{
+    color: #597A6A;
+    font-family: 'Chewy';
+    font-size: medium;
+    text-align: center;
 }
