@@ -3,9 +3,25 @@
     padding: 0;
     cursor: pointer;
 }
+h2{       /*  for all the headings */
+    color: #073A29;
+    font-size: xxx-large;
+    font-family: 'Chewy';
+    letter-spacing: 2px;
+    margin: 1rem 2rem;
+}
+section, footer{    /* for every section except home */
+    padding: 2rem;
+}
+p{      /*  for all paragraphs */
+    color: #337600;
+    font-family: 'Chewy';
+    font-size: x-large;
+}
 #Home{
     background-color: #CCE0C5;
     height: auto;
+    padding: 0;
 }
 nav{
     padding: 0rem 4rem ;
@@ -43,7 +59,6 @@ nav{
     font-size: 1.5rem;
 }
 .homepage{
-    /* display: flex; */
     padding: 4rem 4rem 0rem 8rem;
     justify-content: space-between;
     position: relative;
@@ -116,7 +131,6 @@ nav{
 /* Our Story */
 #About{
     background-color: #CCE0C5;
-    padding: 2rem;
 }
 .Story{
     display: flex;
@@ -126,19 +140,7 @@ nav{
 .our-story{
     width: 30%;
 }
-.our-story h2{
-    color: #073A29;
-    font-size: xxx-large;
-    font-family: 'Chewy';
-    letter-spacing: 2px;
-    margin: 1rem 0;
-}
-.our-story p{
-    color: #337600;
-    font-family: 'Chewy';
-    font-weight: 400;
-    font-size: x-large;
-}
+
 .story-palette{
     width: 60%;
     display: flex;
@@ -154,20 +156,10 @@ nav{
     position: absolute;
     left: 66.5%;
     top: 68rem;
-    /* mix-blend-mode: multiply; */
 }
 
 /* Menu */
-#Menu{
-    padding: 2rem;
-}
-.juice-oasis h2{
-    color: #073A29;
-    font-size: xxx-large;
-    font-family: 'Chewy';
-    letter-spacing: 2px;
-    margin: 1rem 0 0 5rem;
-}
+
 .Item-set{
     display: flex;
     flex-wrap: wrap;
@@ -183,9 +175,6 @@ nav{
 }
 .Item-set p{
     color: #366700;
-    font-family: 'Chewy';
-    font-size: x-large;
-    font-weight: 400;
     text-align: center;
     padding: 0rem 3rem;
 }
@@ -210,13 +199,7 @@ nav{
 #Testimonial{
     background-color: #B5DBC6
 }
-.test-heading h2{
-    color: #073A29;
-    font-size: xxx-large;
-    font-family: 'Chewy';
-    letter-spacing: 2px;
-    margin: 1rem 0 0 5rem;
-}
+
 .carousel{
     display: flex;
     justify-content: space-between;
@@ -230,7 +213,6 @@ nav{
 /* FAQ's */
 #FAQ{
     background-color: #83C998;
-    padding: 2rem;
 }
 
 .faq { 
@@ -240,13 +222,6 @@ nav{
     font-family: 'Open Sans', sans-serif;
 }
 
-.faq-heading h2 {
-    color: #073A29;
-    font-size: xxx-large;
-    font-family: 'Chewy';
-    letter-spacing: 2px;
-    margin: 1rem 0 0 5rem;
-}
 .faq-item {
     width: 78rem;
     margin-top: 1rem;
@@ -306,7 +281,6 @@ nav{
 /* Footer */
 footer{
     background-color: #003221;
-    padding: 2rem;
 }
 .logo{
     text-align: center;
@@ -320,7 +294,7 @@ footer{
     font-size: medium;
     color: #83C998;
 }
-.contact-us{
+#contact-us{
     display: flex;
     justify-content: space-around;
     margin: 1rem;
@@ -333,16 +307,15 @@ footer{
     margin-right: 30rem;
     align-items: center;
 }
-.contact-us h5{
+#contact-us h5{
     color: #83C998;
     font-family: 'Chewy';
     font-size: medium;
     text-align: center;
     padding: 10px;
 }
-.contact-us p{
+#contact-us p{
     color: #2DB753;
-    font-family: 'Chewy';
     font-size: medium;
     text-align: center;
     padding: 2px;
@@ -350,9 +323,8 @@ footer{
 .follow img{
     padding: 1px;
 }
-.copyrights{
+.copyrights p{
     color: #597A6A;
-    font-family: 'Chewy';
     font-size: medium;
     text-align: center;
 }
