@@ -3,6 +3,9 @@
     padding: 0;
     cursor: pointer;
 }
+section, footer{    /* for every section except home */
+    padding: 2rem;
+}
 h2{       /*  for all the headings */
     color: #073A29;
     font-size: xxx-large;
@@ -10,8 +13,8 @@ h2{       /*  for all the headings */
     letter-spacing: 2px;
     margin: 1rem 2rem;
 }
-section, footer{    /* for every section except home */
-    padding: 2rem;
+h5{
+    font-family: 'chewy';
 }
 p{      /*  for all paragraphs */
     color: #337600;
@@ -42,8 +45,7 @@ nav{
 }
 .title h5{
     color: #366700;
-    font-family: "Chewy";
-    font-size: 1.5rem;
+    font-size: x-large;
     font-weight: 400;
     /* letter-spacing: 1px; */
 }
@@ -309,7 +311,6 @@ footer{
 }
 #contact-us h5{
     color: #83C998;
-    font-family: 'Chewy';
     font-size: medium;
     text-align: center;
     padding: 10px;
