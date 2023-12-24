@@ -137,7 +137,7 @@ nav{
 .Story{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
 }
 .our-story{
@@ -154,12 +154,19 @@ nav{
     /* width: 60%;
     min-width: 900px; */
     /* width: 100%; By default, take up 100% of the width */
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     position: relative;
 }
+
+@media screen and (max-width: 600px) {
+    .story-palette .col3:nth-child(n+3) {
+        display: none; /* Hide the third and subsequent items on smaller screens */
+    }
+}
+
 .collage-img3{
     position: relative;
     z-index: 1;
