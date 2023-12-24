@@ -268,8 +268,10 @@ nav{
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .faq-item {
-    width: 78rem;
+    min-width: 100%;
+    max-width: 120rem;
     margin-top: 1rem;
 }
 .item-question {
