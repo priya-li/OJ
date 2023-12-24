@@ -136,7 +136,7 @@ nav{
 }
 .Story{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     position: relative;
 }
@@ -161,12 +161,16 @@ nav{
     position: relative;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1170px) {
     .story-palette .col3:nth-child(n+3) {
         display: none; /* Hide the third and subsequent items on smaller screens */
     }
 }
-
+@media screen and (max-width: 900px){
+    .Story{
+        flex-wrap: wrap;
+    }
+}
 .collage-img3{
     position: relative;
     z-index: 1;
