@@ -142,8 +142,8 @@ nav{
 }
 .our-story{
     flex: 1;
-    /* width: 30%;
-    min-width: 900px; */
+    /* width: 30%; */
+    /* min-width: 900px; */
     /* width: 100%; By default, take up 100% of the width */
     box-sizing: border-box; /* Include padding and border in the width */
     margin-bottom: 1rem;
@@ -161,7 +161,7 @@ nav{
     position: relative;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
     .story-palette .col3:nth-child(n+3) {
         display: none; /* Hide the third and subsequent items on smaller screens */
     }
