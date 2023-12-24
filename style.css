@@ -228,12 +228,26 @@ nav{
 .carousel{
     display: flex;
     justify-content: space-between;
+    overflow-x: auto;
 }
 .card{
     background: #DBFFEB;
     height: 24rem;
+    border: solid #DBFFEB 1rem;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    /* width: 15%; */
+    /* height: 424px; */
 }
-
+.card img{
+    width: 2rem;
+    height: 2rem;
+    padding: 1rem;
+}
+.card p{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
 /* FAQ's */
 #FAQ{
