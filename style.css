@@ -225,19 +225,26 @@ nav{
 #Testimonial{
     background-color: #B5DBC6
 }
+@keyframes scroll {
+    from {transform: translateX(0)}
+    to {transform: translateX(-50%)}
+}
 .carousel{
     display: flex;
     justify-content: space-between;
-    overflow-x: auto;
+    /* overflow: hidden; */
+    /* animation: scroll 10s linear infinite; */
 }
+
 .card{
     background: #DBFFEB;
     height: 24rem;
+    width: 80%;
     border: solid #DBFFEB 1rem;
     border-radius: 1.5rem;
     margin-right: 1rem;
-    /* width: 15%; */
-    /* height: 424px; */
+    /* box-sizing: border-box; */
+    /* display: inline-block; */
 }
 .card img{
     width: 2rem;
