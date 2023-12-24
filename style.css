@@ -95,7 +95,10 @@ nav{
     flex-shrink: 0;
     top: 6rem;
     left: 4.3rem;
-    mix-blend-mode: multiply;
+    mix-blend-mode: multiply;    
+    max-width: calc(100% - 8.6rem);
+    max-height: calc(100% - 6rem);
+    overflow: hidden;
 }
 
 
@@ -268,11 +271,17 @@ nav{
     font-family: 'Open Sans', sans-serif;
 }
 
-
 .faq-item {
-    min-width: 100%;
-    max-width: 120rem;
+    /* width: 78rem; */
+    /* width: 100%; */
+    width: 74rem;
     margin-top: 1rem;
+}
+@media screen and (max-width: 1200px) {
+    .faq-item{
+        width: calc(100% - 2rem);
+        max-width: 100%;
+    }
 }
 .item-question {
     background: #BEE7B0B2;
