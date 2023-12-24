@@ -237,8 +237,8 @@ nav{
     border: solid #DBFFEB 1rem;
     border-radius: 1.5rem;
     margin-right: 1rem;
-    width: 528px;
-    height: 424px;
+    /* width: 15%; */
+    /* height: 424px; */
 }
 .card img{
     width: 2rem;
