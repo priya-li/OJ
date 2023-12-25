@@ -235,18 +235,20 @@ nav{
 .carousel{
     display: flex;
     justify-content: space-between;
-    /* overflow: hidden; */
-    /* animation: scroll 10s linear infinite; */
+    overflow: hidden;
+    animation: scroll 10s linear infinite;
+    position: relative;
 }
 
 .card{
     background: #DBFFEB;
     height: 24rem;
-    width: 80%;
+    width: 17rem;
     border: solid #DBFFEB 1rem;
     border-radius: 1.5rem;
     margin-right: 1rem;
-    /* box-sizing: border-box; */
+    flex-shrink: 0;
+    box-sizing: border-box;
     /* display: inline-block; */
 }
 .card img{
