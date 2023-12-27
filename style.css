@@ -60,30 +60,36 @@ nav{
     font-family: "Chewy";
     font-size: 1.5rem;
 }
+
 .homepage{
     padding: 4rem 4rem 0rem 8rem;
-    justify-content: space-between;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* align-items: center; */
 }
 .homepage-text h1{
-    float: left;
-    margin-top: 3rem;
+    /* float: left; */
+    /* margin-top: 3rem; */
     font-family: 'Emilys candy';
     font-weight: 300;
     font-size: 5rem;
     color: #337600;
+    margin: 1rem;
     width: fit-content;
     position: relative;
     z-index: 2;
 
 }
 .jar img{
-    float: right;
+    /* float: right; */
+    /* margin: 1rem; */
     position: relative;
     z-index: 2;
-    right: 15rem;
-    top: 5rem;
-    bottom: -1rem;
+    /* right: 15rem; */
+    /*top: 5rem;
+    bottom: -1rem; */
 }
 
 /* leaves */
@@ -93,10 +99,10 @@ nav{
     width: 90rem;
     height: 49.75rem;
     flex-shrink: 0;
-    top: 6rem;
-    left: 4.3rem;
+    top: 4rem;
+    left: 4rem;
     mix-blend-mode: multiply;    
-    max-width: calc(100% - 8.6rem);
+    max-width: calc(100% - 4rem);
     max-height: calc(100% - 6rem);
     overflow: hidden;
 }
@@ -139,37 +145,38 @@ nav{
 }
 .Story{
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-evenly;
     position: relative;
 }
 .our-story{
-    flex: 1;
-    /* width: 30%; */
-    /* min-width: 900px; */
-    /* width: 100%; By default, take up 100% of the width */
-    box-sizing: border-box; /* Include padding and border in the width */
-    margin-bottom: 1rem;
-}
-
-.story-palette{
     flex: 2;
-    /* width: 60%;
-    min-width: 900px; */
-    /* width: 100%; By default, take up 100% of the width */
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
+    margin: 2rem;
+}
+.our-story p{
+    min-width: 20rem;
+}
+.story-palette{
+    flex: 3;
     display: flex;
     justify-content: space-around;
     align-items: center;
     position: relative;
 }
-
-@media screen and (max-width: 1170px) {
+.story-palette img{
+    margin: 1rem;
+}
+@media screen and (max-width: 1250px) {
     .story-palette .col3:nth-child(n+3) {
         display: none; /* Hide the third and subsequent items on smaller screens */
     }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 600px) {
+    .story-palette .col1:first-child{
+        display: none;
+    }
+}
+@media screen and (max-width: 950px){
     .Story{
         flex-wrap: wrap;
     }
@@ -189,7 +196,6 @@ nav{
 .Item-set{
     display: flex;
     flex-wrap: wrap;
-    flex-shrink: 0;
     justify-content: space-around;
 }
 .Item-set h3{
@@ -205,7 +211,6 @@ nav{
     padding: 0rem 3rem;
 }
 .item{
-    width: 80%;
     max-width: 400px;
     margin: 1rem;
 }
@@ -249,7 +254,7 @@ nav{
     margin-right: 1rem;
     flex-shrink: 0;
     box-sizing: border-box;
-    /* display: inline-block; */
+    display: inline-block;
 }
 .card img{
     width: 2rem;
@@ -274,8 +279,6 @@ nav{
 }
 
 .faq-item {
-    /* width: 78rem; */
-    /* width: 100%; */
     width: 74rem;
     margin-top: 1rem;
 }
@@ -307,7 +310,6 @@ nav{
     font-weight: bold;
     text-align: center;
     align-items: center;
-    /* border: 2px solid #377E56; */
     border-radius: 100%;
     background-color: #83C998;
     
