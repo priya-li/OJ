@@ -4,7 +4,7 @@
     cursor: pointer;
 }
 section, footer{    /* for every section except home */
-    padding: 2rem;
+    padding: 2%;
 }
 h2{       /*  for all the headings */
     color: #073A29;
@@ -23,11 +23,12 @@ p{      /*  for all paragraphs */
 }
 #Home{
     background-color: #CCE0C5;
+    color: #366700;
     height: auto;
     padding: 0;
 }
 nav{
-    padding: 0rem 4rem ;
+    padding: 0 4% ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,10 +45,8 @@ nav{
     margin: 2.5rem 0rem;
 }
 .title h5{
-    color: #366700;
     font-size: x-large;
     font-weight: 400;
-    /* letter-spacing: 1px; */
 }
 .Navbar-menu{
     display: flex;
@@ -60,71 +59,29 @@ nav{
     font-family: "Chewy";
     font-size: 1.5rem;
 }
-
 .homepage{
-    padding: 4rem 4rem 0rem 8rem;
+    padding: 4% 4% 0rem 8%;
     position: relative;
-    /* display: flex;
+    display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; */
-    box-sizing: border-box;
-}
-.homepage-text{
-    width: fit-content;
-    float: left;
+    justify-content: space-between;
 }
 .homepage-text h1{
-    
     margin-top: 3rem;
     font-family: 'Emilys candy';
     font-weight: 300;
     font-size: 5rem;
-    color: #337600;
-    /* margin: 1rem; */
-    /* width: fit-content; */
     position: relative;
     z-index: 2;
-
 }
 .jar{
-    width: fit-content;
-    float: right;
+    margin: 6vw auto 0 auto;
 }
 .jar img{ 
-    margin-top: 6rem;
-    margin-right: 10rem;
     position: relative;
     z-index: 2;
     margin-bottom: -3rem;
-    /* right: 15rem; */
-    /*top: 5rem;
-    bottom: -1rem; */
 }
-
-/* @media screen and (min-width: 1275px) {
-    .homepage {
-        padding: 4rem 4rem 0rem 8rem;
-    }
-
-    .homepage-text h1 {
-        width: 40%; 
-        float: left;
-        margin: 3rem 0; 
-        font-size: 5rem; 
-    }
-
-    .jar {
-        width: fit-content; 
-        float: right;
-    }
-
-    .jar img {
-        margin: 6rem 0 0 10rem; 
-        margin-bottom: -3rem;
-    }
-} */
-
-
 
 
 /* leaves */
@@ -141,7 +98,11 @@ nav{
     max-height: calc(100% - 6rem);
     overflow: hidden;
 }
-
+@media  (max-width:750px) {
+    .Navbar-menu a:first-child{
+        display: none;
+    }
+}
 
 /* Horizontal Scroll Animation */
 @keyframes infiniteScroll {
