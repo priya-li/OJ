@@ -103,6 +103,19 @@ nav{
         display: none;
     }
 }
+@media (max-width:670px){
+    .Navbar-menu a{
+        display: none;
+    }
+    .homepage-text h1{
+        font-size: 4rem;
+    }
+}
+@media (max-width:535px){
+    .homepage-text h1{
+        font-size: 2.7rem;
+    }
+}
 
 /* Horizontal Scroll Animation */
 @keyframes infiniteScroll {
