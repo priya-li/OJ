@@ -64,33 +64,68 @@ nav{
 .homepage{
     padding: 4rem 4rem 0rem 8rem;
     position: relative;
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    /* align-items: center; */
+    justify-content: space-between; */
+    box-sizing: border-box;
+}
+.homepage-text{
+    width: fit-content;
+    float: left;
 }
 .homepage-text h1{
-    /* float: left; */
-    /* margin-top: 3rem; */
+    
+    margin-top: 3rem;
     font-family: 'Emilys candy';
     font-weight: 300;
     font-size: 5rem;
     color: #337600;
-    margin: 1rem;
-    width: fit-content;
+    /* margin: 1rem; */
+    /* width: fit-content; */
     position: relative;
     z-index: 2;
 
 }
-.jar img{
-    /* float: right; */
-    /* margin: 1rem; */
+.jar{
+    width: fit-content;
+    float: right;
+}
+.jar img{ 
+    margin-top: 6rem;
+    margin-right: 10rem;
     position: relative;
     z-index: 2;
+    margin-bottom: -3rem;
     /* right: 15rem; */
     /*top: 5rem;
     bottom: -1rem; */
 }
+
+/* @media screen and (min-width: 1275px) {
+    .homepage {
+        padding: 4rem 4rem 0rem 8rem;
+    }
+
+    .homepage-text h1 {
+        width: 40%; 
+        float: left;
+        margin: 3rem 0; 
+        font-size: 5rem; 
+    }
+
+    .jar {
+        width: fit-content; 
+        float: right;
+    }
+
+    .jar img {
+        margin: 6rem 0 0 10rem; 
+        margin-bottom: -3rem;
+    }
+} */
+
+
+
 
 /* leaves */
 .box#four {
@@ -239,7 +274,7 @@ nav{
 }
 .carousel{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     overflow: hidden;
     animation: scroll 10s linear infinite;
     position: relative;
