@@ -117,18 +117,18 @@ nav{
     }
 }
 
-/* Horizontal Scroll Animation */
+/* Horizontal Scroll Animation for Home page and testimonials*/
 @keyframes infiniteScroll {
     from {transform: translateX(0)}
     to {transform: translateX(-50%)}
 }
-.scroll-container {
+.scroll-container, .carousel-container {
     width: 100%;
     overflow-x: hidden;
     overflow-y: hidden;
     z-index: 0;
 }
-.horizontal-scrolling-items {
+.horizontal-scrolling-items, .carousel {
     display: flex;
     width: max-content;
     animation-name: infiniteScroll;
@@ -138,6 +138,7 @@ nav{
     position: relative;
     z-index: 2;
 }
+
 .scroll-text {
     white-space: nowrap;
     height: 6rem;
@@ -247,17 +248,6 @@ nav{
 /* What we hear all the time */
 #Testimonial{
     background-color: #B5DBC6
-}
-@keyframes scroll {
-    from {transform: translateX(0)}
-    to {transform: translateX(-50%)}
-}
-.carousel{
-    display: flex;
-    justify-content: flex-start;
-    overflow: hidden;
-    animation: scroll 10s linear infinite;
-    position: relative;
 }
 
 .card{
