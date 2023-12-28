@@ -249,7 +249,9 @@ nav{
 #Testimonial{
     background-color: #B5DBC6
 }
-
+.carousel:hover{
+    animation-play-state: paused;
+}
 .card{
     background: #DBFFEB;
     height: 24rem;
