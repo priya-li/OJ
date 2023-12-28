@@ -92,9 +92,9 @@ nav{
     height: 49.75rem;
     flex-shrink: 0;
     top: 4rem;
-    left: 4rem;
+    left: 2rem;
     mix-blend-mode: multiply;    
-    max-width: calc(100% - 4rem);
+    max-width: calc(100% - 2rem);
     max-height: calc(100% - 6rem);
     overflow: hidden;
 }
@@ -173,7 +173,7 @@ nav{
     position: relative;
 }
 .story-palette img{
-    margin: 1rem;
+    margin: 1vw;
 }
 @media screen and (max-width: 1250px) {
     .story-palette .col3:nth-child(n+3) {
@@ -191,13 +191,19 @@ nav{
     }
 }
 .collage-img3{
-    position: relative;
+    /* position: relative; */
     z-index: 1;
 }
-.collage-creaaper-img{
+/* .collage-creaaper-img{
+    position: relative;
+    
+} */
+.collage-creaaper-img img{
     position: absolute;
-    left: 66.5%;
-    top: 68rem;
+    left: 66vw;
+    top: 83vw;
+    /* bottom: -13vw; */
+    z-index: 2;
 }
 
 /* Menu */
@@ -288,8 +294,8 @@ nav{
 }
 
 .faq-item {
-    width: 74rem;
-    margin-top: 1rem;
+    width: 74vw;
+    margin: 1rem;
 }
 @media screen and (max-width: 1200px) {
     .faq-item{
@@ -366,15 +372,16 @@ footer{
 }
 #contact-us{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 10vw;
     margin: 1rem;
 }
 .contact{
-    margin-left: 30rem;
+    /* margin-left: 30vw; */
     margin-bottom: 1rem;
 }
 .follow{
-    margin-right: 30rem;
+    /* margin-right: 30vw; */
     align-items: center;
 }
 #contact-us h5{
