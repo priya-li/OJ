@@ -192,18 +192,13 @@ nav{
     }
 }
 .collage-img3{
-    /* position: relative; */
     z-index: 1;
 }
-/* .collage-creaaper-img{
-    position: relative;
-    
-} */
+
 .collage-creaaper-img img{
     position: absolute;
     left: 66vw;
-    top: 83vw;
-    /* bottom: -13vw; */
+    top: 74vw;
     z-index: 2;
 }
 
@@ -369,11 +364,9 @@ footer{
     margin: 1rem;
 }
 .contact{
-    /* margin-left: 30vw; */
     margin-bottom: 1rem;
 }
 .follow{
-    /* margin-right: 30vw; */
     align-items: center;
 }
 #contact-us h5{
