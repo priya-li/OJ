@@ -171,7 +171,7 @@ nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: relative;
+    /* position: relative; */
 }
 .story-palette img{
     margin: 1vw;
@@ -192,14 +192,27 @@ nav{
     }
 }
 .collage-img3{
+    position: relative;
     z-index: 1;
 }
-
-.collage-creaaper-img img{
+.collage-img4{
+    position: relative;
+}
+.collage-creaaper-img{
     position: absolute;
-    left: 66vw;
-    top: 74vw;
-    z-index: 2;
+    left: 70vw;
+    top: 73vw;
+    overflow: hidden;
+}
+.collage-creaaper-img img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+@media screen and (max-width: 1300px){
+    .collage-creaaper-img img{
+        display: none;
+    }
 }
 
 /* Menu */
